@@ -22,6 +22,11 @@
     .page:last-child{ break-after:auto; }
     .screen-only{ display:none !important; }
   }
+  @media (max-width: 800px){
+    html,body{ overflow-x:hidden; }
+    .reader{ padding:14px 0 28px !important; gap:14px !important; }
+    .page{ zoom: calc(100vw / 822); box-shadow:0 4px 16px rgba(0,0,0,.16) !important; }
+  }
 
 </style>
 </head>
